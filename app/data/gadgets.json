@@ -1,0 +1,27 @@
+{
+"electronics":
+[{
+  "id":"elec1",
+ "name":"iphone",
+ "url":"app/images/iphone.jpg",
+ "description":"This is awesome iphone.",
+  "price":"60000",
+  "type": "Mobiles"
+ }, 
+ {
+   "id":"elec2",
+ "name":"Samsung",
+  "url":"app/images/samsung.jpg",
+ "description":"This is awesome samsung phone.",
+   "price":"40000",
+     "type": "Mobiles"
+ }, 
+ {
+   "id":"elec3",
+ "name":"macromax",
+ "url":"app/images/macromax.jpg",
+ "description":"This is awesome macromax phone.",
+   "price":"50000",
+     "type": "Mobiles"
+ }]
+ }

@@ -1,0 +1,18 @@
+
+ {
+"householditems":
+[{ 
+ "name":"Crockery",
+"url":"app/images/household1.jpg",
+  "id":"hh1",
+  "price":"10000"
+
+ }, 
+ {
+ "name":"Water Jug",
+ "url":"app/images/household2.jpg",
+   "id":"hh2",
+   "price":"20000"
+ }
+ ]
+ }

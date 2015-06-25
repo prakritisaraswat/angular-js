@@ -1,0 +1,32 @@
+
+
+<h1>Welcome to Household page</h1>
+
+
+<div class="row" ng-controller="householdctrl">
+
+<div class="col-md-4" ng-repeat="item in household|filter:search">
+
+<a href="#" class="thumbnail">
+
+<img src="{{item.url}}" alt="{{item.name}}"/>
+<span class="product-name">
+{{item.name}}
+
+</span>
+
+
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+

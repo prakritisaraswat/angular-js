@@ -1,0 +1,44 @@
+
+
+
+<div ng-controller="gadgetsctrl">
+<!--<select ng-change="selectGadget()"
+        ng-options="item.name group by item.type for item in gadgetTypes"
+        ng-model="gadgetType">
+
+</select>-->
+
+<select ng-change="selectGadget()"
+        ng-options="item.name group by item.type for item in gadgets"
+        ng-model="gadgetType">
+
+</select>
+
+
+
+<div class="row" >
+
+
+<div class="col-md-4" ng-repeat="item in gadgets|filter:gadgetType|filter:search">
+
+<a href="#" class="thumbnail">
+
+<img src="{{item.url}}" alt="{{item.description}}"/>
+<span class="product-name">
+{{item.name|uppercase}}      Price :{{item.price|currency:'Rs.'}}
+
+</span>
+</a>
+    <button class="btin btn-primary" ng-click="addToCart(item)">Add to Cart</button>
+<!-- <span class="product-name">
+<input type="checkbox" ng-checked="item.selected"/>
+
+</span>-->
+
+</div>
+
+</div>
+
+</div>
+
+

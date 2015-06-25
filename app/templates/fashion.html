@@ -1,0 +1,37 @@
+
+
+<h1>Welcome to Fashion page</h1>
+
+
+<div class="row" ng-controller="fashionctrl">
+
+<div class="col-md-4" ng-repeat="item in fashion|filter:search">
+
+<a href="#" class="thumbnail">
+
+<img src="{{item.url}}" alt="{{item.description}}"/>
+
+<span class="product-name">
+<a href="#" ng-click="showDescription=!showDescription">{{item.name}}</a>
+
+</span>
+   <span class="product-name" ng-if="showDescription">
+        {{item.description}}
+</span>
+<span class="product-name">
+Out of Trend By {{9900990909239|date:'yyyy-MMMM'}}
+
+</span>
+<span class="product-name">
+Contact : {{item.contactname}}
+    <br>{{item.contactno|phoneFormatter:'US'}}
+
+</span>
+
+</a>
+</div>
+
+
+
+</div>
+

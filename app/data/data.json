@@ -1,0 +1,25 @@
+{
+"menu":
+[{ 
+ "name":"home",
+ "templateUrl":"app/templates/home.html",
+ "displayname":"Home"
+ }, 
+ {
+"name":"electronics",
+"templateUrl":"app/templates/electronics.html",
+"displayname":"Electronics"
+ }, 
+ {
+"name":"fashion",
+"templateUrl":"app/templates/fashion.html",
+"displayname":"Fashion"
+ },
+ 
+{"name":"household",
+"templateUrl":"app/templates/household.html",
+"displayname":"HouseHold"
+ }
+ 
+ ]
+ }

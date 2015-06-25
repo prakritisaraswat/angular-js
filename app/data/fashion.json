@@ -1,0 +1,34 @@
+{
+"dresses":
+[{
+  "id":"dress1",
+ "name":"indian dress",
+"url":"app/images/indiandress.jpg",
+ "description":"This is beautiful indian dress.",
+  "outOfFashionBy":"06/30/2015",
+  "contactno":"9959688870",
+  "contactname":"Kiran",
+  "price":"10000"
+ }, 
+ {
+   "id":"dress2",
+ "name":"Western dress",
+ "url":"app/images/westerndress.jpg",
+ "description":"This is beautiful western dress.",
+   "outOfFashionBy":"07/30/2015",
+   "contactno":"9938703098",
+   "contactname":"Santosh",
+   "price":"20000"
+ },
+  {
+    "id":"dress3",
+    "name":"Anarkali",
+    "url":"app/images/westerndress.jpg",
+    "description":"This is beautiful western dress.",
+    "outOfFashionBy":"07/30/2015",
+    "contactno":"9938703099",
+    "contantname":"Prakriti",
+    "price":"30000"
+  }
+ ]
+ }
